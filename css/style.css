@@ -1,0 +1,22 @@
+.topNav {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+/* 
+.logo{
+
+} */
+body {
+    background-color: black;
+}
+section {
+    display: flex;
+    justify-content: start;
+}
+section img {
+    background: black;
+}
+/* .bottomFooter {
+    
+} */
