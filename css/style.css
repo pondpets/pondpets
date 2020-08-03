@@ -117,8 +117,7 @@ body {
 }
 .footerLeft {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    /* flex-direction: column; */
 }
 /* .footerLeft a {
 
