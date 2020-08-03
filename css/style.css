@@ -7,7 +7,7 @@
     position: fixed;
     top:0;
     width: 100%;
-    padding: 20px 2%;
+    padding: 20px 3%;
 }
 .topLeft, .topCenter, .topRight {
     height: 50px;
@@ -17,16 +17,16 @@
 }
 
 .topLeft, .topRight {
-    width: 25%;
+    width: 30%;
 }
 .topLeft {
-    background: black;
+    /* background: black; */
     background-image: url("../images/Logo_white.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 .topCenter {
-    width: 50%;
+    width: 40%;
 }
 .topCenter a {
     color: white;
@@ -103,23 +103,93 @@ body {
 .bottomFooter {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: black;
-    padding: 40px;
-}
-.footerLeft, .footerRight {
-    width: 50%;
-}
-.bottomFooter a {
     padding: 20px;
+}
+.footerLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: space-between; */
+}
+.footerRight {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: flex-start; */
+}   
+.bottomUpperLeft a {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
     text-decoration: none;
     color: white;
 }
-.footerLeft {
-    display: flex;
-    /* flex-direction: column; */
+.bottomUpperLeft, .bottomBottomLeft {
+    padding: 20px;
 }
-/* .footerLeft a {
-
+/* Make this a grid layout... */
+/* .bottomUpperLeft {
+    display: grid;
 } */
+.footerInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 40px;
+}
+.footerForm h2 {
+    font-size: 38;
+    font-weight: 400;
+}
+.footerForm form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#newsletterform {
+    background-color: rgba(255, 206, 107, 0.18);
+    border-color: #FFF5E1;
+    border-width: 5px;
+    border-style: solid; 
+    color: rgba(211, 211, 211, .46);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+    width: 60%;
+}
+#newsletterbutton {
+    background-image: url("../images/arrowButton.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50px;
+    padding: 20px;
+    background-color: black;
+    border-width: 0px;
+    border-style: solid; 
+    color: rgba(0,0,0,0);
+    margin-left: 30px;
 
+    /* background-color: rgba(0,0,0,0);
+    border-color: #F8BA42;
+    border-width: 5px;
+    border-style: solid; 
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 12px;
+    width: 20%; */
+}
+.footerInfo a {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+.socialicons {
+    padding: 20px;
+}
