@@ -1,11 +1,12 @@
 /* top navigation */
 .topNav {
+    box-sizing: border-box;
     display: flex;
     background-color: rgba(0,0,0,.5);
     /* keep display fixed */
     position: fixed;
     top:0;
-    width: 96%;
+    width: 100%;
     padding: 20px 2%;
 }
 .topLeft, .topCenter, .topRight {
@@ -29,52 +30,97 @@
 }
 .topCenter a {
     color: white;
-    padding: 20px;
+    padding: 10px 20px;
     font-size: 18px;
+    font-weight: 800;
     text-decoration: none;
-    font-family: Arial;
 }
 .topRight button {
-    background-color: yellow;
-    /* border: 10px;
-    border-color: blueviolet; */
-    padding: 15px;
-    margin: 10px;
-    width: 25%;
+    background-color: rgba(0,0,0,0);
+    border-width: 5px;
+    border-style: solid; 
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 10px;
+    width: 30%;
+    font-weight: 900;
+}
+#signup {
+    border-color: #F8BA42;
+}
+#login {
+    border-color: #DC549C;
 }
 
 /* Body */
 body {
     background-color: black;
+    font-family: Spartan;
+    color: white;
 }
 .hero {
     display: flex;
     justify-content: start;
     width: 100%;
-    height: 500px;
-}
-.heroLeft, .heroRight {
-    height: 500px;
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    width: 50%;
-}
-.heroLeft {
-    justify-content: start;
-    align-items: center;
-}
-.heroRight {
+    height: 800px;
     background: black;
     background-image: url("../images/movementfinal1.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
-/* .bottomFooter {
-    
-} */
+.heroLeft {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 100px;
+}
+.heroLeft h1 {
+    font-family: Knewave;
+    color: #F8BA42;
+    font-size: 100px;
+}
+.heroLeft p {
+    font-size: 24;
+    font-weight: 400;
+    color: white;
+}
+.heroLeft button {
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    border-width: 5px;
+    border-style: solid; 
+    border-color: #F8BA42;
+    color: white;
+    font-size: 32px;
+    padding: 10px 50px;
+    font-weight: 900;
+}
+
+/* Footer */
+.bottomFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 40px;
+}
+.footerLeft, .footerRight {
+    width: 50%;
+}
 .bottomFooter a {
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    color: white;
 }
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+/* .footerLeft a {
+
+} */
+
