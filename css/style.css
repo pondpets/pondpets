@@ -165,7 +165,7 @@ body {
     font-size: 24px;
     font-weight: 400;
     padding: 10px;
-    width: 60%;
+    width: 80%;
 }
 #newsletterbutton {
     background-image: url("../images/arrowButton.png");
@@ -177,6 +177,10 @@ body {
     border-color: rgba(0,0,0,0);
     color: rgba(0,0,0,0); 
     margin-left: 20px;
+}
+.footerInfo {
+    display: flex;
+    justify-content: space-between;
 }
 .footerInfo a {
     padding: 10px;
