@@ -168,20 +168,11 @@ body {
     min-height: 50px;
     padding: 20px;
     background-color: black;
-    border-width: 0px;
+    border-width: 30px;
     border-style: solid; 
+    border-color: rgba(0,0,0,0);
     color: rgba(0,0,0,0);
-    margin-left: 30px;
-
-    /* background-color: rgba(0,0,0,0);
-    border-color: #F8BA42;
-    border-width: 5px;
-    border-style: solid; 
-    color: white;
-    font-weight: 900;
-    font-size: 20px;
-    padding: 12px;
-    width: 20%; */
+    /* margin-left: 20px; */
 }
 .footerInfo a {
     padding: 10px;
