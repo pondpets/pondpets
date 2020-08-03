@@ -165,14 +165,12 @@ body {
     background-image: url("../images/arrowButton.png");
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 50px;
-    padding: 20px;
+    padding: 30px;
     background-color: black;
-    border-width: 30px;
     border-style: solid; 
     border-color: rgba(0,0,0,0);
-    color: rgba(0,0,0,0);
-    /* margin-left: 20px; */
+    color: rgba(0,0,0,0); 
+    margin-left: 20px;
 }
 .footerInfo a {
     padding: 10px;
@@ -183,4 +181,4 @@ body {
 }
 .socialicons {
     padding: 20px;
-}
+}  
